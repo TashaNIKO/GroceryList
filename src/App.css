@@ -1,0 +1,60 @@
+.App {
+  background-color: rgb(121, 134, 134);
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 45%;
+}
+body {
+  background-color: rgb(236, 120, 174);
+}
+.crossed {
+  text-decoration: line-through 2px red;
+  background-color: rgb(121, 134, 134);
+}
+ul, li {
+  list-style-type: none;
+  padding: 5px;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.add {
+  margin-top: 5px;
+  background-color: rgb(65, 202, 99);
+  padding: 10px;
+  border: none;
+  width: 70%;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+}
+.delete {
+  background-color: rgb(192, 9, 94);
+  padding: 10px;
+  border: none;
+  margin-bottom: 5px;
+  width: 70%;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+}
+input {
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+  border-color: rgb(67, 65, 196);
+  font-family: 'Montserrat', sans-serif;
+}
+img {
+  border-radius: 50%;
+  margin-top: 10px;
+}
